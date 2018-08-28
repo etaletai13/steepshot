@@ -1,0 +1,28 @@
+{
+  "name": "Steepshot",
+  "targetUrl": "https://alpha.steepshot.io/signin",
+  "platform": "darwin",
+  "arch": "x64",
+  "out": "dist",
+  "overwrite": "true",
+  "asar": "false",
+  "counter": "true",
+  "bounce": "false",
+  "width": "700",
+  "height": "740",
+  "showMenuBar": "true",
+  "fastQuit": "false",
+  "userAgent": "Mozilla ...",
+  "ignoreCertificate": "false",
+  "ignoreGpuBlacklist": "false",
+  "enableEs3Apis": "true",
+  "insecure": "false",
+  "honest": "false",
+  "zoom": "1.0",
+  "singleInstance": "true",
+  "win32metadata": {
+    "CompanyName": "Etaletai",
+    "FileDescription": "Electron app for Steepshot.io",
+    "ProductName": "Steepshot"
+  }
+}

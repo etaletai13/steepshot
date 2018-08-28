@@ -1,0 +1,15 @@
+os: osx
+language: node_js
+node_js: stable
+yarn: stable
+before_install:
+  - brew install wine
+deploy:
+  provider: releases
+  api_key: ${GH_TOKEN}
+  file_globs: true
+  file: dist/**/*
+  skip_cleanup: true
+  on:
+    branch: release
+    repo: etaletai13/steepshot
