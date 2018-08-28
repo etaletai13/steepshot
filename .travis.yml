@@ -1,0 +1,13 @@
+language: node_js
+node_js:
+- stable
+deploy:
+  provider: releases
+  api_key:
+    secure: ${GH_TOKEN}
+  file_globs: true
+  file: dist/**/*
+  skip_cleanup: true
+  on:
+    branch: release
+    repo: etaletai13/steepshot
