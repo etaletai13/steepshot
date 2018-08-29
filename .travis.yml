@@ -1,9 +1,10 @@
-os: osx
+os: linux
 language: node_js
 node_js: stable
 yarn: stable
 before_install:
-  - brew install wine
+  - sudo apt-get update -qq
+  - sudo apt-get install wine -qq
 deploy:
   provider: releases
   api_key: ${GH_TOKEN}
