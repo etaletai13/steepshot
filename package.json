@@ -8,12 +8,13 @@
   "license": "MIT",
   "private": true,
   "devDependencies": {
+    "asyncconsole": "~1.3.9",
     "nativefier": "*",
     "prettier-standard": "*"
   },
   "scripts": {
     "prepare": "node main.js",
     "postinstall": "yarn prettier *.js *.json --write",
-    "test": "echo \"travis loves tests\""
+    "test": "ls dist"
   }
 }
